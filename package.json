@@ -1,0 +1,36 @@
+{
+  "name": "node_learning",
+  "version": "1.0.0",
+  "description": "Basic app to learn node testing stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattemoore/node_learning.git"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "supertest",
+    "koa"
+  ],
+  "author": "matthew moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattemoore/node_learning/issues"
+  },
+  "homepage": "https://github.com/mattemoore/node_learning#readme",
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  }
+}
